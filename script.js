@@ -24,7 +24,7 @@ function decrement(eventDtails ){
       if(newCount>=1){
         newCount=newCount-1;
         ct.innerHTML=newCount
-       console.log(typeof newCount+" "+ct.innerHTML);
+      
       }
        
       
@@ -36,12 +36,12 @@ function increment(eventDtails ){
     let newCount=+ct.innerHTML;
      newCount=newCount+1;
      ct.innerHTML=newCount
-    console.log(typeof newCount+" "+ct.innerHTML);
+    
 }
 
 function setZero(eventDtails ){
     clear.style.display="none";
-    
+
     ct.innerHTML=0;
-    console.log(ct.innerHTML);
+    
 }
