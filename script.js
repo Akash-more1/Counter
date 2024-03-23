@@ -40,6 +40,8 @@ function increment(eventDtails ){
 }
 
 function setZero(eventDtails ){
+    clear.style.display="none";
+    
     ct.innerHTML=0;
     console.log(ct.innerHTML);
 }
