@@ -1,0 +1,33 @@
+*{
+    background-color: black;
+    color: white;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.btn{
+    color: black;
+    background-color: aliceblue;
+    padding: 5px;
+    border: solid 1px black;
+    border-radius: 10%;
+}
+
+div{
+    margin: 10px;
+}
+
+#clear{
+    border: solid 1px whitesmoke;
+    background-color: black;
+    color: white;
+    
+}
+
+.counter{
+    width: 30%;
+   
+}
